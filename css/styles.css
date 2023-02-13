@@ -79,11 +79,32 @@ nav a{
 }
 
 .logo-contact{
-  top: 20px;
+  bottom: 230px;
 }
 
 .logo img{
   width: 100%;
+}
+
+.images{
+  width: 500px;
+  display: inline-block;
+  
+}
+
+.image{
+  width: 100%;
+  border-radius: 20px;
+  border: 3px solid black;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.image2{
+  margin: 20px 600px;
+}
+
+.image3{
+  margin: 40px 700px;
 }
 
 .data{
@@ -99,6 +120,7 @@ nav a{
 .data-contact{
   position: absolute;
   left: 300px;
+  bottom: -70px;
 }
 
 .information{
