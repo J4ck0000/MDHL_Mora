@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- icono pagina -->
     <link rel="shortcut icon" href="img/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Mighty Ducks Hockey League</title>
 </head>
@@ -13,60 +14,50 @@
   <header>
 
     <!-- logo pagina -->
+    <figure class="logo">
+      <a href="#"><img src="./img/Logo_Mighty_ducks-01.png" class="logo__hockey" alt="Logo_hockey"></a>
+    </figure>
    
-    <h1>Mighty Ducks Hockey League</h1>
-    
-    <div class="banner">
+    <h1 class="main_title">Mighty Ducks Hockey League</h1>
 
-   
-
-    </div>
-
-       <!-- navbar -->
-    <nav>
-       <a href="#" class="green">Home</a>
-       <a href="./about.html">About</a>
-       <a href="./contact.html">Contact</a>
-    </nav>
-    
-
-    
-    <h2 class="secondary-title">Upcoming Events</h2>
   </header>
 
   <main>
-    
-    <!--  eventos  -->
-    
 
-      <!-- logo -->
-      <figure class="logo">
-        <img src="./img/Logo_Mighty_ducks-01.png" alt="jugadores_de_hockey">
-      </figure>
+    <nav>
+      <ul class="nav_list">
+        <li class="link"><a href="#"><i class='bx bxs-home' ></i>Home</a></li>
+        <li class="link"><a href="./pages/about.html"><i class='bx bx-group'></i>About</a></li>
+        <li class="link"><a href="./pages/game_info.html"><i class='bx bxs-info-circle' ></i>Info</a></li>
+        <li class="link"><a href="./pages/rules.html"><i class='bx bx-clipboard'></i>Rules</a></li>
+        <li class="link"><a href="./pages/contact.html"><i class='bx bxs-message-alt-detail'></i>Contact</a></li>
+      </ul>
+    </nav>
 
-
-      <article class="data">
-        
-        <div class="information">
-          <h3>August 4</h3>
-          <p>MDSL Fundraiser</p>
-        </div>
-        <div class="information">
-          <h3>August 16</h3>
-          <p>Season Kick-off: Meet the Teams</p>
-        </div>
-        <div class="information">
-          <h3>September 1</h3>
-          <p>First Game of the Season (Check Game Schedule for details)</p>
-        </div>
-        
-      </article>
-
-      <figure class="images">
-        <img class="image image1" src="./img/hockey1.jpg" alt="jugador_hockey">
-      </figure>
+    <div class="banner">
       
-    
+    </div>
+
+    <h2 class="title2"><i class='bx bxs-calendar' ></i>Upcoming Events<i class='bx bxs-calendar' ></i></h2>
+
+    <article class="event-container">
+
+      <div class="event">
+        <h3 class="event__title3">August 4</h3>
+        <p class="event__paraph">MDSL Fundraiser</p>
+        
+      </div>
+      
+      <div class="event">
+        <h3 class="event__title3">August 16</h3>
+        <p class="event__paraph">Season Kick-off: Meet the Teams</p>
+      </div>
+      
+      <div class="event">
+        <h3 class="event__title3">September 1</h3>
+        <p class="event__paraph">First Game of the Season (Check Game Schedule for details)</p>
+      </div>
+    </article>
 
   </main>
     
