@@ -5,6 +5,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+:root{
+  scroll-behavior: smooth;
+}
+
 /* main */
 @media (max-width:425px) {
   header{
@@ -364,6 +368,7 @@ td{
   font-size: 1.3rem;
   padding: 10px;
 }
+
 
 /* end info */
 
